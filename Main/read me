@@ -1,1 +1,3 @@
 Due to a filesize restriction when uploading, one of the folders had to be split into two parts. When extracting each of the 3 main zip files to a single folder, make sure to merge the two 'packages' folders.
+
+The .nuget folder will have to be added as well. For some reason this folder is ignored when zipped to a folder, possibly because of the exe file.
