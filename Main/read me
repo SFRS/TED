@@ -1,3 +1,11 @@
 Due to a filesize restriction when uploading, one of the folders had to be split into two parts. When extracting each of the 3 main zip files to a single folder, make sure to merge the two 'packages' folders.
 
 The .nuget folder will have to be added as well. For some reason this folder is ignored when zipped to a folder, possibly because of the exe file.
+
+Build info:
+The application was built on Visual Studio 2012 and wont run on higher versions. 
+
+It uses SQL Server 2008, ASP.NET, MVC pattern.
+
+The project also uses a T4MVC custom tool to help out with intelliSense. To use this right click 'T4MVC.tt' under the 'SFR.TOR.Web' project in the solution explorer and select 'run custom tool'.
+Documentation: https://github.com/T4MVC/T4MVC.wiki.git
